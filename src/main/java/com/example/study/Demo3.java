@@ -80,9 +80,7 @@ public class Demo3 {
         System.out.println(Arrays.toString(arr));
     }
 
-    public void quick(int[] a, int start, int end) {
-        HashSet<String> set = new HashSet<>();
-
+    private void quick(int[] a, int start, int end) {
         if(start >= end) {return;}
         int i = start, j = end;
         while (i < j) {

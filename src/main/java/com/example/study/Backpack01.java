@@ -13,24 +13,26 @@ public class Backpack01 {
 
     @Test
     public void main() {
+        // 重量
         int[] w = new int[]{1, 2, 3, 4, 5};
+        // 价值
         int[] v = new int[]{2, 6, 3, 8, 4};
 
-        int size = 10;
-        int[][] all = new int[w.length][size + 1];
-        for (int i = 0; i <= size; i++) {
+        int amount = 10;
+        int[][] all = new int[w.length][amount + 1];
+        for (int i = 0; i <= amount; i++) {
             all[0][i] = i > w[0] ? v[0] : 0;
         }
 
         for (int i = 1; i < w.length; i++) {
-            for (int j = 0; j <= size; j++) {
+            for (int j = 0; j <= amount; j++) {
                 all[i][j] = all[i - 1][j];
                 if (j > w[i]) {
                     all[i][j] = Math.max(all[i][j], v[i] + all[i - 1][j - w[i]]);
                 }
             }
         }
-        System.out.println(all[w.length - 1][size]);
+        System.out.println(all[w.length - 1][amount]);
     }
 
     /**
