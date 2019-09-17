@@ -1,4 +1,4 @@
-package com.example.study;
+package com.example.algorithm;
 
 import java.util.*;
 

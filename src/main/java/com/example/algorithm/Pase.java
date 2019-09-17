@@ -1,7 +1,6 @@
-package com.example.study;
+package com.example.algorithm;
 
-    import java.text.DecimalFormat;
-import java.util.Scanner;
+    import java.util.Scanner;
 
 /**
  * @date 2019-08-10 15:04

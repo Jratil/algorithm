@@ -1,7 +1,6 @@
-package com.example.study;
+package com.example.algorithm;
 
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.concurrent.ExecutorService;

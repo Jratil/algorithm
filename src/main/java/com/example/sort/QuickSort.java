@@ -15,7 +15,7 @@ public class QuickSort extends PrintResult{
     }
 
     /**
-     * @see com.example.study.Demo3
+     * @see com.example.algorithm.Demo3
      *
      * 快速排序
      * 原理：不知道

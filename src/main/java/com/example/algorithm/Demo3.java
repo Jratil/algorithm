@@ -1,9 +1,8 @@
-package com.example.study;
+package com.example.algorithm;
 
 import org.junit.Test;
 
 import java.util.Arrays;
-import java.util.HashSet;
 
 /**
  * @author wen
