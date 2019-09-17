@@ -19,6 +19,7 @@ public class Backpack01 {
         int[] v = new int[]{2, 6, 3, 8, 4};
 
         int amount = 10;
+        // 价格矩阵
         int[][] all = new int[w.length][amount + 1];
         for (int i = 0; i <= amount; i++) {
             all[0][i] = i > w[0] ? v[0] : 0;
