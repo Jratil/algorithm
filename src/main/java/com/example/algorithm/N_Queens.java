@@ -3,7 +3,7 @@ package com.example.algorithm;
 import org.junit.Test;
 
 /**
- * @author wenjj2@meicloud.com
+ * @author wen
  * @version 1.0.0
  * @date 2019-09-19 8:55
  *

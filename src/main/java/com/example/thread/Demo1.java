@@ -12,7 +12,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 /**
- * @author wenjj2
+ * @author wen
  * @create 2019-07-27 22:23
  * {@link ThreadLocal}
  */

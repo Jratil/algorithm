@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.*;
 
 /**
- * @author wenjj2@meicloud.com
+ * @author wen
  * @version 1.0.0
  * @date 2019-09-19 17:30
  * 获取树的最大深度

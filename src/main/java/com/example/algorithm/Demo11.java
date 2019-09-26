@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * @author wenjj2@meicloud.com
+ * @author wen
  * @version 1.0.0
  * @date 2019-09-16 19:14
  * @Description 搜狗第一道算法题，防火墙过滤ip

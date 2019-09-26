@@ -4,7 +4,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- * @author wenjj2@meicloud.com
+ * @author wen
  * @version 1.0.0
  * @date 2019-09-16 16:22
  * @Description

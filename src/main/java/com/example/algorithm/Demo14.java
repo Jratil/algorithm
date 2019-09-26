@@ -4,7 +4,7 @@ package com.example.algorithm;
 import java.util.*;
 
 /**
- * @author wenjj2@meicloud.com
+ * @author wen
  * @version 1.0.0
  * @date 2019-09-20 21:03
  *

@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.lang.reflect.Proxy;
 
 /**
- * @author wenjj2@meicloud.com
+ * @author wen
  * @version 1.0.0
  * @date 2019-09-16 16:21
  * @Description
