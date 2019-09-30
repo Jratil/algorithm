@@ -26,7 +26,7 @@ public class SerializeBinaryTree {
         node3.right = node6;
         node4.left = node7;
         node5.right = node8;
-//        System.out.println(serialize(node1));
+        System.out.println(Serialize(node1));
 
         //          1
         //        /  \
@@ -36,8 +36,17 @@ public class SerializeBinaryTree {
         //  /       \
         // 7         8
         // 下面构造的二叉树
-        TreeNode node = deserialize("1-2-4-7-#-8-#-#-#-5-#-#-3-#-6-#-#-");
-        beforeFind(node);
+//        TreeNode node = deserialize("1-2-4-7-#-8-#-#-#-5-#-#-3-#-6-#-#-");
+//        beforeFind(node);
+    }
+
+    static String Serialize(TreeNode root) {
+        StringBuilder sb = new StringBuilder();
+        if (root == null) return "#!";
+        sb.append(root.val).append("!");
+        sb.append(Serialize(root.left));
+        sb.append(Serialize(root.right));
+        return sb.toString();
     }
 
     public static String serialize(TreeNode root) {

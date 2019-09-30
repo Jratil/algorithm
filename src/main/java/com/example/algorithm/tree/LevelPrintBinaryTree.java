@@ -14,7 +14,7 @@ import java.util.Queue;
  */
 public class LevelPrintBinaryTree {
 
-    List<List<Integer>> list = new ArrayList<>();
+    private List<List<Integer>> list = new ArrayList<>();
 
     @Test
     public void levelPrintTest() {
@@ -22,6 +22,7 @@ public class LevelPrintBinaryTree {
         // 递归方式
         // dfs(root, 0);
         // 迭代方式
+        list.clear();
         iterate(root);
         for (int i = 0; i < list.size(); i++) {
             for (int j = 0; j < list.get(i).size(); j++) {
@@ -71,6 +72,7 @@ public class LevelPrintBinaryTree {
                 if (node.left != null) queue.add(node.left);
                 if (node.right != null) queue.add(node.right);
             }
+            level++;
         }
     }
 }
